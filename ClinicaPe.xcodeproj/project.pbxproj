@@ -7,15 +7,78 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56F4EC6A4602BCB5D1C51BC7 /* Pods_ClinicaPe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFC34D51F2B62F21A3D8F491 /* Pods_ClinicaPe.framework */; };
+		E20F02FF2082F05C009DD0E1 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20F02FE2082F05C009DD0E1 /* CameraController.swift */; };
+		E20F0302208309DF009DD0E1 /* ListaClientesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20F0301208309DF009DD0E1 /* ListaClientesController.swift */; };
+		E20F030620830AE3009DD0E1 /* ChatLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20F030320830AE2009DD0E1 /* ChatLogController.swift */; };
+		E20F030720830AE3009DD0E1 /* ClientesControllerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20F030420830AE2009DD0E1 /* ClientesControllerHelper.swift */; };
+		E20F030820830AE3009DD0E1 /* RegisterClienteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20F030520830AE3009DD0E1 /* RegisterClienteController.swift */; };
+		E22BBC402086D0A700CFA127 /* ClientesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22BBC3F2086D0A700CFA127 /* ClientesCell.swift */; };
+		E232248520823B7900AA5B1D /* UserProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E232248420823B7900AA5B1D /* UserProfileController.swift */; };
+		E23224882082C47E00AA5B1D /* UserProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23224872082C47E00AA5B1D /* UserProfileHeader.swift */; };
+		E2732E232083A2B7008D4177 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2732E212083A2B7008D4177 /* LoginController.swift */; };
+		E2732E242083A2B7008D4177 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2732E222083A2B7008D4177 /* SignUpController.swift */; };
+		E2732E282083C2E4008D4177 /* AdicionarClientesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2732E272083C2E4008D4177 /* AdicionarClientesController.swift */; };
+		E2732E2A2083C874008D4177 /* UserCellTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2732E292083C874008D4177 /* UserCellTest.swift */; };
+		E2732E2D20842436008D4177 /* ListaExamesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2732E2C20842436008D4177 /* ListaExamesController.swift */; };
+		E2732E2F20842F1E008D4177 /* ExamesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2732E2E20842F1E008D4177 /* ExamesCell.swift */; };
+		E2DABA8420858E6C00CD146D /* FireServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DABA8320858E6C00CD146D /* FireServices.swift */; };
+		E2DABA862085905A00CD146D /* Cliente.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DABA852085905A00CD146D /* Cliente.swift */; };
+		E2E8D7162082EBEC0094FE06 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E8D7142082EBEB0094FE06 /* HomeController.swift */; };
+		E2E8D7172082EBEC0094FE06 /* HomePostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E8D7152082EBEB0094FE06 /* HomePostCell.swift */; };
+		E2E8D71A2082EC690094FE06 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E8D7192082EC690094FE06 /* CustomImageView.swift */; };
+		E2E8D71D2082EC9E0094FE06 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E8D71C2082EC9D0094FE06 /* Post.swift */; };
+		E2E8D71F2082ED090094FE06 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E8D71E2082ED090094FE06 /* User.swift */; };
+		E2E8D7212082EEB90094FE06 /* FirebaseUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E8D7202082EEB90094FE06 /* FirebaseUtils.swift */; };
+		E2E8D7252082EF1A0094FE06 /* UserSearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E8D7232082EF190094FE06 /* UserSearchCell.swift */; };
+		E2E8D7262082EF1A0094FE06 /* UserSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E8D7242082EF190094FE06 /* UserSearchController.swift */; };
+		E2E8D72B2082EF5D0094FE06 /* PhotoSelectorHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E8D7272082EF5B0094FE06 /* PhotoSelectorHeader.swift */; };
+		E2E8D72C2082EF5D0094FE06 /* SharePhotoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E8D7282082EF5C0094FE06 /* SharePhotoController.swift */; };
+		E2E8D72D2082EF5D0094FE06 /* PhotoSelectorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E8D7292082EF5C0094FE06 /* PhotoSelectorController.swift */; };
+		E2E8D72E2082EF5D0094FE06 /* PhotoSelectorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E8D72A2082EF5D0094FE06 /* PhotoSelectorCell.swift */; };
 		E2FE160B20803C14000E7C2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FE160A20803C14000E7C2A /* AppDelegate.swift */; };
 		E2FE160D20803C14000E7C2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FE160C20803C14000E7C2A /* ViewController.swift */; };
 		E2FE161020803C14000E7C2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2FE160E20803C14000E7C2A /* Main.storyboard */; };
 		E2FE161320803C14000E7C2A /* ClinicaPe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E2FE161120803C14000E7C2A /* ClinicaPe.xcdatamodeld */; };
 		E2FE161520803C14000E7C2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2FE161420803C14000E7C2A /* Assets.xcassets */; };
 		E2FE161820803C14000E7C2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2FE161620803C14000E7C2A /* LaunchScreen.storyboard */; };
+		E2FE162120803C62000E7C2A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FE162020803C62000E7C2A /* Extensions.swift */; };
+		E2FE162320803D38000E7C2A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2FE162220803D38000E7C2A /* GoogleService-Info.plist */; };
+		E2FE16252081BC12000E7C2A /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FE16242081BC12000E7C2A /* MainTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6361E7E7E608868AD78D619C /* Pods-ClinicaPe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClinicaPe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClinicaPe/Pods-ClinicaPe.debug.xcconfig"; sourceTree = "<group>"; };
+		6CBA81B6FB51D4FC0F54E3BF /* Pods-ClinicaPe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClinicaPe.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClinicaPe/Pods-ClinicaPe.release.xcconfig"; sourceTree = "<group>"; };
+		CFC34D51F2B62F21A3D8F491 /* Pods_ClinicaPe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClinicaPe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E20F02FE2082F05C009DD0E1 /* CameraController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		E20F0301208309DF009DD0E1 /* ListaClientesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaClientesController.swift; sourceTree = "<group>"; };
+		E20F030320830AE2009DD0E1 /* ChatLogController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatLogController.swift; sourceTree = "<group>"; };
+		E20F030420830AE2009DD0E1 /* ClientesControllerHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientesControllerHelper.swift; sourceTree = "<group>"; };
+		E20F030520830AE3009DD0E1 /* RegisterClienteController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterClienteController.swift; sourceTree = "<group>"; };
+		E22BBC3F2086D0A700CFA127 /* ClientesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientesCell.swift; sourceTree = "<group>"; };
+		E232248420823B7900AA5B1D /* UserProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileController.swift; sourceTree = "<group>"; };
+		E23224872082C47E00AA5B1D /* UserProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileHeader.swift; sourceTree = "<group>"; };
+		E2732E212083A2B7008D4177 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		E2732E222083A2B7008D4177 /* SignUpController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		E2732E272083C2E4008D4177 /* AdicionarClientesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdicionarClientesController.swift; sourceTree = "<group>"; };
+		E2732E292083C874008D4177 /* UserCellTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCellTest.swift; sourceTree = "<group>"; };
+		E2732E2C20842436008D4177 /* ListaExamesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaExamesController.swift; sourceTree = "<group>"; };
+		E2732E2E20842F1E008D4177 /* ExamesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamesCell.swift; sourceTree = "<group>"; };
+		E2DABA8320858E6C00CD146D /* FireServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireServices.swift; sourceTree = "<group>"; };
+		E2DABA852085905A00CD146D /* Cliente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cliente.swift; sourceTree = "<group>"; };
+		E2E8D7142082EBEB0094FE06 /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		E2E8D7152082EBEB0094FE06 /* HomePostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePostCell.swift; sourceTree = "<group>"; };
+		E2E8D7192082EC690094FE06 /* CustomImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		E2E8D71C2082EC9D0094FE06 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		E2E8D71E2082ED090094FE06 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E2E8D7202082EEB90094FE06 /* FirebaseUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseUtils.swift; sourceTree = "<group>"; };
+		E2E8D7232082EF190094FE06 /* UserSearchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSearchCell.swift; sourceTree = "<group>"; };
+		E2E8D7242082EF190094FE06 /* UserSearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSearchController.swift; sourceTree = "<group>"; };
+		E2E8D7272082EF5B0094FE06 /* PhotoSelectorHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoSelectorHeader.swift; sourceTree = "<group>"; };
+		E2E8D7282082EF5C0094FE06 /* SharePhotoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharePhotoController.swift; sourceTree = "<group>"; };
+		E2E8D7292082EF5C0094FE06 /* PhotoSelectorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoSelectorController.swift; path = ../../../Instagram_Swift3_and_4_Firebase3_and_4/Instagram_Swift4_Firebase4_0_2/InstagramFirebase/InstagramFirebase/PhotoSelectorController.swift; sourceTree = "<group>"; };
+		E2E8D72A2082EF5D0094FE06 /* PhotoSelectorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoSelectorCell.swift; sourceTree = "<group>"; };
 		E2FE160720803C14000E7C2A /* ClinicaPe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClinicaPe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2FE160A20803C14000E7C2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2FE160C20803C14000E7C2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +87,9 @@
 		E2FE161420803C14000E7C2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2FE161720803C14000E7C2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2FE161920803C14000E7C2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2FE162020803C62000E7C2A /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E2FE162220803D38000E7C2A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E2FE16242081BC12000E7C2A /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +97,125 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56F4EC6A4602BCB5D1C51BC7 /* Pods_ClinicaPe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1040D9B85B1A5AB165892A24 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6361E7E7E608868AD78D619C /* Pods-ClinicaPe.debug.xcconfig */,
+				6CBA81B6FB51D4FC0F54E3BF /* Pods-ClinicaPe.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		91EAA585222F19C73C62166A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFC34D51F2B62F21A3D8F491 /* Pods_ClinicaPe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E20F02FD2082F040009DD0E1 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				E20F02FE2082F05C009DD0E1 /* CameraController.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		E20F0300208309CF009DD0E1 /* Clientes */ = {
+			isa = PBXGroup;
+			children = (
+				E20F030320830AE2009DD0E1 /* ChatLogController.swift */,
+				E20F030420830AE2009DD0E1 /* ClientesControllerHelper.swift */,
+				E20F030520830AE3009DD0E1 /* RegisterClienteController.swift */,
+				E20F0301208309DF009DD0E1 /* ListaClientesController.swift */,
+				E2732E272083C2E4008D4177 /* AdicionarClientesController.swift */,
+				E22BBC3F2086D0A700CFA127 /* ClientesCell.swift */,
+			);
+			path = Clientes;
+			sourceTree = "<group>";
+		};
+		E23224862082C45B00AA5B1D /* UserProfile */ = {
+			isa = PBXGroup;
+			children = (
+				E232248420823B7900AA5B1D /* UserProfileController.swift */,
+				E23224872082C47E00AA5B1D /* UserProfileHeader.swift */,
+			);
+			path = UserProfile;
+			sourceTree = "<group>";
+		};
+		E2732E1C208312AD008D4177 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				E2732E212083A2B7008D4177 /* LoginController.swift */,
+				E2732E222083A2B7008D4177 /* SignUpController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		E2732E2B2084241A008D4177 /* Exames */ = {
+			isa = PBXGroup;
+			children = (
+				E2732E2C20842436008D4177 /* ListaExamesController.swift */,
+				E2732E2E20842F1E008D4177 /* ExamesCell.swift */,
+			);
+			path = Exames;
+			sourceTree = "<group>";
+		};
+		E2E8D7112082EA780094FE06 /* AddPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				E2E8D72A2082EF5D0094FE06 /* PhotoSelectorCell.swift */,
+				E2E8D7292082EF5C0094FE06 /* PhotoSelectorController.swift */,
+				E2E8D7272082EF5B0094FE06 /* PhotoSelectorHeader.swift */,
+				E2E8D7282082EF5C0094FE06 /* SharePhotoController.swift */,
+			);
+			path = AddPhoto;
+			sourceTree = "<group>";
+		};
+		E2E8D7182082EBF60094FE06 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E2E8D7142082EBEB0094FE06 /* HomeController.swift */,
+				E2E8D7152082EBEB0094FE06 /* HomePostCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E2E8D71B2082EC850094FE06 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E2E8D71E2082ED090094FE06 /* User.swift */,
+				E2E8D71C2082EC9D0094FE06 /* Post.swift */,
+				E2DABA852085905A00CD146D /* Cliente.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E2E8D7222082EEEE0094FE06 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				E2E8D7232082EF190094FE06 /* UserSearchCell.swift */,
+				E2E8D7242082EF190094FE06 /* UserSearchController.swift */,
+				E2732E292083C874008D4177 /* UserCellTest.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
 		E2FE15FE20803C14000E7C2A = {
 			isa = PBXGroup;
 			children = (
 				E2FE160920803C14000E7C2A /* ClinicaPe */,
 				E2FE160820803C14000E7C2A /* Products */,
+				1040D9B85B1A5AB165892A24 /* Pods */,
+				91EAA585222F19C73C62166A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +230,38 @@
 		E2FE160920803C14000E7C2A /* ClinicaPe */ = {
 			isa = PBXGroup;
 			children = (
+				E2732E2B2084241A008D4177 /* Exames */,
+				E2732E1C208312AD008D4177 /* Login */,
+				E20F0300208309CF009DD0E1 /* Clientes */,
+				E20F02FD2082F040009DD0E1 /* Camera */,
+				E2E8D7222082EEEE0094FE06 /* Search */,
+				E2E8D71B2082EC850094FE06 /* Models */,
+				E2E8D7182082EBF60094FE06 /* Home */,
+				E2E8D7112082EA780094FE06 /* AddPhoto */,
+				E23224862082C45B00AA5B1D /* UserProfile */,
+				E2FE161F20803C4C000E7C2A /* Utils */,
 				E2FE160A20803C14000E7C2A /* AppDelegate.swift */,
+				E2FE16242081BC12000E7C2A /* MainTabBarController.swift */,
 				E2FE160C20803C14000E7C2A /* ViewController.swift */,
 				E2FE160E20803C14000E7C2A /* Main.storyboard */,
 				E2FE161420803C14000E7C2A /* Assets.xcassets */,
 				E2FE161620803C14000E7C2A /* LaunchScreen.storyboard */,
 				E2FE161920803C14000E7C2A /* Info.plist */,
+				E2FE162220803D38000E7C2A /* GoogleService-Info.plist */,
 				E2FE161120803C14000E7C2A /* ClinicaPe.xcdatamodeld */,
 			);
 			path = ClinicaPe;
+			sourceTree = "<group>";
+		};
+		E2FE161F20803C4C000E7C2A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E2E8D7192082EC690094FE06 /* CustomImageView.swift */,
+				E2FE162020803C62000E7C2A /* Extensions.swift */,
+				E2E8D7202082EEB90094FE06 /* FirebaseUtils.swift */,
+				E2DABA8320858E6C00CD146D /* FireServices.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +271,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2FE161C20803C14000E7C2A /* Build configuration list for PBXNativeTarget "ClinicaPe" */;
 			buildPhases = (
+				45DD6BF9BE32CF2C7CF1CA15 /* [CP] Check Pods Manifest.lock */,
 				E2FE160320803C14000E7C2A /* Sources */,
 				E2FE160420803C14000E7C2A /* Frameworks */,
 				E2FE160520803C14000E7C2A /* Resources */,
+				C84E225BF87F7C155A783EBE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +325,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2FE162320803D38000E7C2A /* GoogleService-Info.plist in Resources */,
 				E2FE161820803C14000E7C2A /* LaunchScreen.storyboard in Resources */,
 				E2FE161520803C14000E7C2A /* Assets.xcassets in Resources */,
 				E2FE161020803C14000E7C2A /* Main.storyboard in Resources */,
@@ -134,14 +334,101 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		45DD6BF9BE32CF2C7CF1CA15 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClinicaPe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C84E225BF87F7C155A783EBE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ClinicaPe/Pods-ClinicaPe-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClinicaPe/Pods-ClinicaPe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E2FE160320803C14000E7C2A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2E8D71F2082ED090094FE06 /* User.swift in Sources */,
+				E2732E282083C2E4008D4177 /* AdicionarClientesController.swift in Sources */,
 				E2FE161320803C14000E7C2A /* ClinicaPe.xcdatamodeld in Sources */,
+				E2DABA8420858E6C00CD146D /* FireServices.swift in Sources */,
+				E23224882082C47E00AA5B1D /* UserProfileHeader.swift in Sources */,
 				E2FE160D20803C14000E7C2A /* ViewController.swift in Sources */,
+				E2E8D71D2082EC9E0094FE06 /* Post.swift in Sources */,
+				E232248520823B7900AA5B1D /* UserProfileController.swift in Sources */,
+				E2E8D72C2082EF5D0094FE06 /* SharePhotoController.swift in Sources */,
+				E2732E2A2083C874008D4177 /* UserCellTest.swift in Sources */,
+				E20F030820830AE3009DD0E1 /* RegisterClienteController.swift in Sources */,
+				E22BBC402086D0A700CFA127 /* ClientesCell.swift in Sources */,
+				E2E8D7172082EBEC0094FE06 /* HomePostCell.swift in Sources */,
+				E2DABA862085905A00CD146D /* Cliente.swift in Sources */,
+				E2FE16252081BC12000E7C2A /* MainTabBarController.swift in Sources */,
+				E2E8D72E2082EF5D0094FE06 /* PhotoSelectorCell.swift in Sources */,
+				E2E8D7162082EBEC0094FE06 /* HomeController.swift in Sources */,
+				E20F030720830AE3009DD0E1 /* ClientesControllerHelper.swift in Sources */,
+				E2732E242083A2B7008D4177 /* SignUpController.swift in Sources */,
+				E2E8D72B2082EF5D0094FE06 /* PhotoSelectorHeader.swift in Sources */,
+				E2E8D71A2082EC690094FE06 /* CustomImageView.swift in Sources */,
+				E2E8D7252082EF1A0094FE06 /* UserSearchCell.swift in Sources */,
+				E20F02FF2082F05C009DD0E1 /* CameraController.swift in Sources */,
 				E2FE160B20803C14000E7C2A /* AppDelegate.swift in Sources */,
+				E20F030620830AE3009DD0E1 /* ChatLogController.swift in Sources */,
+				E2732E232083A2B7008D4177 /* LoginController.swift in Sources */,
+				E2732E2D20842436008D4177 /* ListaExamesController.swift in Sources */,
+				E20F0302208309DF009DD0E1 /* ListaClientesController.swift in Sources */,
+				E2FE162120803C62000E7C2A /* Extensions.swift in Sources */,
+				E2E8D7212082EEB90094FE06 /* FirebaseUtils.swift in Sources */,
+				E2E8D72D2082EF5D0094FE06 /* PhotoSelectorController.swift in Sources */,
+				E2732E2F20842F1E008D4177 /* ExamesCell.swift in Sources */,
+				E2E8D7262082EF1A0094FE06 /* UserSearchController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +563,7 @@
 		};
 		E2FE161D20803C14000E7C2A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6361E7E7E608868AD78D619C /* Pods-ClinicaPe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -290,6 +578,7 @@
 		};
 		E2FE161E20803C14000E7C2A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CBA81B6FB51D4FC0F54E3BF /* Pods-ClinicaPe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
